@@ -1,0 +1,54 @@
+﻿@model Register
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <a href='@Url.Action("Index", "Home")' style="color:black; text-decoration:none;"><h1>Horizon</h1></a>
+    <h2>We Are Built Different</h2>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <div asp-validation-summary="All">
+            <form method="post" class="text-center">
+                <label class="label" for="Id">Id:</label>
+                <input asp-for="Id" placeholder="Id" /> <br>
+
+                <label class="label" for="Name">Name:</label>
+                <input  asp-for="Name" placeholder="Name" /><br>
+
+
+                <label class="label" for="Address">Address:</label>
+                <input asp-for="Address" placeholder="Address" /><br>
+
+                <label for="City">City:</label>
+                <input asp-for="City" placeholder="City" /><br>
+
+                <label for="Zip">Zip:</label>
+                <input asp-for="City" placeholder="Zip" /><br>
+
+                <label for="Region">Region:</label>
+                <input asp-for="Region" placeholder="Region" /><br>
+
+                <label for="Country">Country:</label>
+                <input asp-for="Country" placeholder="Country" /><br>
+
+                <label for="Phone">Phone:</label>
+                <input asp-for="Phone" placeholder="Phone" /><br>
+
+                <label for="Email">Email:</label>
+                <input asp-for="Email" type="email" placeholder="Email" /><br>
+
+                <label for="Password">Password:</label>
+                <input asp-for="Password" type="password" placeholder="Password" /> <br>
+
+                <input type="submit" value="Edit Registration" />
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

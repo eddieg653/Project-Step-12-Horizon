@@ -1,0 +1,39 @@
+﻿@model Product
+
+<h1> Product Details</h1>
+
+<ul>
+    <li>Id: @Model.Id </li>
+    <li>Product Name: @Model.ProductName </li>
+    <li>Supplier Id: @Model.SupplierId </li>
+    <li>Category Id: @Model.CategoryId </li>
+    <li>Price: @Model.Price </li>
+    <li>Gender: @Model.Gender </li>
+</ul> 
+
+<table>
+    <tr>
+        <th class="text-right"> Id: </th>
+        <td> @Model.Id </td>
+    </tr>
+    <tr>
+        <th class="text-right"> Product Name:  </th>
+        <td> @Model.ProductName</td>
+    </tr>
+    <tr>
+        <th class="text-right"> Supplier Id: </td>
+        <td>  @Model.SupplierId</td>
+    </tr>
+    <tr>
+        <th class="text-right">Category Id: </td>
+         <td>  @Model.CategoryId</td>
+    </tr>
+    <tr>
+        <th class="text-right"> Price:</td>
+           <td>  @Model.Price</td>
+    </tr>
+    <tr>
+        <th class="text-right"> Gender: </td>
+           <td>  @Model.Gender</td>
+    </tr>
+</table>

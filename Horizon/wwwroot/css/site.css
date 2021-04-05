@@ -1,0 +1,40 @@
+﻿h1, h2{
+    text-align: center;
+}
+
+#column2 {
+    position: absolute; left: 60em; width: 600px;
+}
+
+#button1, #button2 {
+    display:inline-block;
+    width: 300px;
+    height: 40px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.alignform {
+    max-width: 64em;
+    margin: auto;
+    text-align: center;
+}
+#centerform{
+
+
+}
+.label {
+    text-align: left;
+}
+#input {
+    float: left;
+}
